@@ -1,8 +1,7 @@
-// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/MY-PORTFOLIO/', // your repo name here
+  base: './' // 👈 Use this for Netlify and local hosting
 })
